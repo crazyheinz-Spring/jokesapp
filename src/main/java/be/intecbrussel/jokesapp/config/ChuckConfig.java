@@ -5,10 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
 
-@Configuration
+//@Configuration
 public class ChuckConfig {
 
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
 
         return new ChuckNorrisQuotes();
